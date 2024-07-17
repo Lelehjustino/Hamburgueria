@@ -1,6 +1,7 @@
 const list = document.querySelector("ul");
 const buttonTodosOsBurgers = document.querySelector(".todos-os-burgers");
 const buttonHappyHour = document.querySelector(".happy-hour");
+const somarTudo = document.querySelector(".pedir-todos")
 let myLI = "";
 
 function TodosOsBurgers(array) {
@@ -27,5 +28,17 @@ function desconto() {
     TodosOsBurgers(newPrices);
 }
 
+function sumAll() {
+    const total = menuOptions.reduce((acc, curr) => acc + curr.price, 0)
+   list.innerHTML =` 
+     <li>
+                
+                <p>O valor total de todos os itens é R$ ${total}</p>
+              
+            </li>
+     `
+}
+
 buttonTodosOsBurgers.addEventListener("click", () => TodosOsBurgers(menuOptions));
 buttonHappyHour.addEventListener("click", desconto);
+somarTudo.addEventListener("click", sumAll)
