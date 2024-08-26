@@ -1,4 +1,4 @@
-<h2><a href="http://127.0.0.1:5500/index.html">Clique aqui para ver o projeto na web</a></h2>
+<h2><a href="https://66ccc5fc0205324d468d082c--charming-trifle-92c26c.netlify.app/">Clique aqui para ver o projeto na web</a></h2>
 
  🏠 / Sobre o projeto
  <p>Este projeto é uma hamburgueria em que cada um dos botões são programados com técnologias diferentes. São quatro botões utilizando as tecnologias de forEach, reduce, filter e map.</p>
